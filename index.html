@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load YouTube Videos</title>
+    <!-- Video loading CSS style -->
+    <link rel="stylesheet" href="video-loader.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Adding original source in data-src -->
+        <div class="video-wrapper" data-src="https://www.youtube.com/embed/R5ntdxOZ70E">
+            <!-- Loading video thumbnail -->
+            <img class="video-image" src="https://img.youtube.com/vi/R5ntdxOZ70E/hqdefault.jpg" />
+        </div>
+    </div>
+
+    <!-- Video loading JS script -->
+    <script src="video-loader.js"></script>
+</body>
+</html>
